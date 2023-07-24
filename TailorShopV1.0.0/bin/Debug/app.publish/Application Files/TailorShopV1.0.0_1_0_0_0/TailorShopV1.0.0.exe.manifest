@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TailorShopV1.0.0.exe" version="1.0.0.0" publicKeyToken="d56e9e6d952dd296" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TailorShopV1.0.0" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TailorShopV1.0.0.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Bildirim Seçenekleri
+          Windows Kullanıcı Hesabı Denetimi düzeyini değiştirmek istiyorsanız,
+           requestedExecutionLevel düğümünü aşağıdakilerden biriyle değiştirin.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Geriye dönük uyumluluk için Dosya ve Kayıt Defteri Sanallaştırması
+         kullanmak istiyorsanız, requestedExecutionLevel düğümünü silin.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.WMPLib.dll" size="53760">
+      <assemblyIdentity name="AxInterop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0YspY88MsKA0YtZpkw4qI2OJ2M6JHOBczLGvJ2HGV8c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="330752">
+      <assemblyIdentity name="Interop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>z8X2FaKQkIui8N2eRjcSSKIJBg440l4yDqGNU0Mlugg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TailorShopV1.0.0.exe" size="11118032">
+      <assemblyIdentity name="TailorShopV1.0.0" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xRqsjzCk6DT6b4/eu+sbmibBLT3+1t3OpGaNPCbVAqo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Database1.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>km+crDw3kwIXiq/T3VdpTE/dB8uo/vAiD/ITiKqyXGI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Database1_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Byr9GMUeZ3x/FyI6UF0TTdknR/uym/inJXz/qcQCcJs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="TailorShopV1.0.0.exe.config" size="527">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wnCG4T6QxWxqjk0fhJxgYzMTqTf9JIrJAdzMEXixR78=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=COMP-SERGEN\SERGEN" issuerKeyHash="315bc7e038dad1bbd3089b856e41dc8eebcaa51b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Ut6YfoDUHFUhoUT0ARw1jNXyyzbhsBCnZkApoY8wQPg=</DigestValue></Reference></SignedInfo><SignatureValue>C+f5A/e+LVBYauf1JC8C+5fjxDwxYKyy4u/mWqjwuVWmVsQiW3a/AXMFNbzOBZR7TRAdAUSNphi7MHKCuLOOvH4wjxxxOIMMkdgiFxOJMxQzfZfbX5qvvf6jgYjpPcOIZT6n64hQZJS+WbEz3xbCr1apIVnlafzymGu8ZBXPExM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rYcscZEu81C8bm9qemLhedIHTpM758s4wHIUpb00/DnYub4h9AN5sdYeA1c1Vle0mjuHOwwAM/8uKVkZyH9uSfzxdPyQDLN4W3QVm2rmFYXPB7dsfOLWzqwlHU1QMjmJVTNRGwPcI3nHLe/y5/atZJBtWNlH07f29TDUHwxzu20=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f840308fa1294066a710b0e136cbf2d58c351c01f444a121551cd4807e98de52" Description="" Url=""><as:assemblyIdentity name="TailorShopV1.0.0.exe" version="1.0.0.0" publicKeyToken="d56e9e6d952dd296" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=COMP-SERGEN\SERGEN</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>WfVPq82CWYW55Cl9N8JA3DaCdX5Fblzjz9kHSUsYpUY=</DigestValue></Reference></SignedInfo><SignatureValue>TM7FjjmOLZEqoVrX5lhHsHoM7O94l8j4ewdYQtOayzvOcbpn46NUkFX8NZXt2ilm76Tvvk3nQFK6zUwuSpK8KeLTmtsD27Ot4Gw0STCxqro5fb/sLGCx1awR0i6C4eXWen0R4dq0K0H1rhZ5oV13hnUY1juY4/QV993gI29AoaI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rYcscZEu81C8bm9qemLhedIHTpM758s4wHIUpb00/DnYub4h9AN5sdYeA1c1Vle0mjuHOwwAM/8uKVkZyH9uSfzxdPyQDLN4W3QVm2rmFYXPB7dsfOLWzqwlHU1QMjmJVTNRGwPcI3nHLe/y5/atZJBtWNlH07f29TDUHwxzu20=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQP9wjvssPbJ9DvZlK61o5yTANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQAQwBPAE0AUAAtAFMARQBSAEcARQBOAFwAUwBFAFIARwBFAE4wHhcNMjMwNzI0MTMxMTA0WhcNMjQwNzIzMTkxMTA0WjAvMS0wKwYDVQQDHiQAQwBPAE0AUAAtAFMARQBSAEcARQBOAFwAUwBFAFIARwBFAE4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAK2HLHGRLvNQvG5vanpi4XnSB06TO+fLOMByFKW9NPw52Lm+IfQDebHWHgNXNVZXtJo7hzsMADP/LilZGch/bkn88XT8kAyzeFt0FZtq5hWFzwe3bHzi1s6sJR1NUDI5iVUzURsD3CN5xy3v8uf2rWSQbVjZR9O39vUw1B8Mc7ttAgMBAAEwDQYJKoZIhvcNAQELBQADgYEApJQ4lG30zZCUOqI5SJu1T/WP580lFzcoNQhJJEBAMEOe6mxIKmfzCht3JBy2LxWFDuFMXvbkR1KW8va1rYDaBqNdXxb1frQns3eTcU8HXcmLvpI8YxTVeqpf/hT95/G8PQIaE14djSLtZ2ioR85itAAHyWOLfZYcCa0MBYbE914=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
